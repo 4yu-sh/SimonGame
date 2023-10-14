@@ -3,9 +3,8 @@ body{
 }
 
 .gamearea{
-    width: 550px;
-    height: 550px;
-    background-color: ivory;
+    width: 700px;
+    height: 700px;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
@@ -13,32 +12,33 @@ body{
     position: absolute;
     left: 33.3333%;
     top: 21.22%;
-    border-radius: 25px;
-    border: 3px ridge black;
+    
 }
 
 button{
-    height: 98%;
-    width: 98%;
+    height: 70%;
+    width: 70%;
     border-radius:25px;
     margin: 3px;
-    border-color: none;
-    border-style: none;
-    border: 3px double black;
+    border: 8px solid black;
 }
 
-#red_btn{
+.red_btn{
     background-color: red;
 }
 
-#blue_btn{
+.blue_btn{
     background-color: blue;
 }
 
-#yellow_btn{
+.yellow_btn{
     background-color: yellow;
 }
 
-#green_btn{
+.green_btn{
     background-color: green;
+}
+
+.blink{
+    background-color: silver;
 }
