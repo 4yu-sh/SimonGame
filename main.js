@@ -130,7 +130,7 @@ function runGame(){
 
 // Sound Playing Function
  function playSound(sound_name) {
-    var audio = new Audio("/sounds/"+ sound_name +".mp3") // audio is a variable which stores a new Audio from the url inside it
+    var audio = new Audio("sounds/"+ sound_name +".mp3") // audio is a variable which stores a new Audio from the url inside it
     audio.play(); // this loc plays the audio if the func gets called
     
  }
